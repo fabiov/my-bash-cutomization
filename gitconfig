@@ -9,6 +9,8 @@
 	prompt = false
 [alias]
 	a = add
+	c = commit
+	co = checkout
 	d = difftool
 	lo = log --pretty=format:'%Cred%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
 	st = status
