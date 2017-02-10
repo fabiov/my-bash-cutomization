@@ -12,9 +12,9 @@
 	c = commit
 	co = checkout
 	d = difftool
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	lo = log --pretty=format:'%Cred%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
 	st = status
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	unstage = reset HEAD --
 [push]
 	default = simple
