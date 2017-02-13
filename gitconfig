@@ -9,6 +9,7 @@
 	prompt = false
 [alias]
 	a = add
+	br = branch
 	c = commit
 	co = checkout
 	d = difftool
