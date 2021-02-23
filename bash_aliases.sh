@@ -9,3 +9,7 @@ alias ll="ls -hl --color --group-directories-first"
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i"
+
+# git
+alias gb="git branch"
+alias gco="git checkout"
