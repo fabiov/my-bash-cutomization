@@ -11,5 +11,8 @@ alias cp="cp -i"
 alias mv="mv -i"
 
 # git
+alias ga="git add"
 alias gb="git branch"
 alias gco="git checkout"
+alias gst="git status"
+alias gvd="git difftool"
