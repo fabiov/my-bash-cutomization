@@ -1,26 +1,26 @@
 [alias]
-	a = add
-	br = branch
-	bra = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
-	ci = commit
-	co = checkout
-	d = difftool
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
-	lo = log --pretty=format:'%Cred%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
-	st = status
-	unstage = reset HEAD --
+    a = add
+    br = branch
+    bra = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+    ci = commit
+    co = checkout
+    d = difftool
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    lo = log --pretty=format:'%Cred%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
+    st = status
+    unstage = reset HEAD --
 [diff]
-	tool = vimdiff
+    tool = vimdiff
 [difftool]
-	prompt = false
+    prompt = false
 [merge]
-	tool = vimdiff
+    tool = vimdiff
 [pager]
     branch = false
     stash = false
     tag = false
 [push]
-	default = simple
+    default = simple
 [user]
-	email = foravatenubi@gmail.com
-	name = Fabio Ventura
+    email = foravatenubi@gmail.com
+    name = Fabio Ventura
