@@ -1,12 +1,3 @@
-[user]
-	email = foravatenubi@gmail.com
-	name = Fabio Ventura
-[diff]
-	tool = vimdiff
-[merge]
-	tool = vimdiff
-[difftool]
-	prompt = false
 [alias]
 	a = add
 	br = branch
@@ -18,5 +9,18 @@
 	lo = log --pretty=format:'%Cred%h %Cgreen%ad %Cblue%an %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
 	st = status
 	unstage = reset HEAD --
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[merge]
+	tool = vimdiff
+[pager]
+    branch = false
+    stash = false
+    tag = false
 [push]
 	default = simple
+[user]
+	email = foravatenubi@gmail.com
+	name = Fabio Ventura
