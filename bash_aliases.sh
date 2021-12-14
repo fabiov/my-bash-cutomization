@@ -15,5 +15,6 @@ alias mv="mv -i"
 alias ga="git add"
 alias gb="git branch"
 alias gco="git checkout"
+alias gpsup='git push --set-upstream origin $(git_current_branch)'
 alias gst="git status"
 alias gvd="git difftool"
