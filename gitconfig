@@ -20,6 +20,7 @@
     stash = false
     tag = false
 [push]
+    autoSetupRemote = true
     default = simple
 [user]
     email = foravatenubi@gmail.com
