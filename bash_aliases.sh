@@ -1,5 +1,3 @@
-#!/bin/bash
-
 alias dc="docker-compose"
 alias grep="grep --color=auto"
 alias l="ls -hl --color --group-directories-first"
