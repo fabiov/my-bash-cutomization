@@ -22,7 +22,7 @@
     tag = false
 [push]
     autoSetupRemote = true
-    default = simple
+    default = current
 [user]
     email = foravatenubi@gmail.com
     name = Fabio Ventura
